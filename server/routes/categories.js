@@ -3,8 +3,6 @@ const router = express.Router();
 const Categories = require('../models/category');
 const Products = require('../models/product');
 /**
- * @dateTime:2018/05/03 16:02:17
- * @author:ChenJun
  * @desc:查询分类借口，populate关联查询
  * populate({path:'products',select:'name price'}) == populate('products','name price')
  */

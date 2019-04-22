@@ -16,7 +16,7 @@ var app = express();
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
-var dbUrl = 'mongodb://localhost/shop-mall';
+var dbUrl = 'mongodb://127.0.0.1:27017/shop-mall';
 
 
 mongoose.connect(dbUrl, { useNewUrlParser: true }, function(err) {

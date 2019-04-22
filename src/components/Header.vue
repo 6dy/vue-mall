@@ -4,8 +4,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="logo">
-                        <img src="/static/svg/logo.svg">
-                        <p>XX商城网</p>
+                        <img src="/static/products/logo.jpg">
                     </div>
                 </div>
                 <div class="col-md-4" style="padding-top: 4%">
@@ -107,6 +106,10 @@
                         'path': '/category/list',
                     },
                     {
+                        'text': '订单列表',
+                        'path': '/order/list',
+                    },                    
+                    {
                         'text': '返回首页',
                         'path': '/',
                     }
@@ -158,7 +161,7 @@
         },
         methods: {
             defaultSearchValue() {
-                const arr = ['手机', '电子产品', '服装鞋帽', '3C家电', '夏普', '食品', '服饰包包'];
+                const arr = ['糖果', '坚果', '饼干', '冲调', '糕点', '肉类'];
                 this.searchValue = arr[Math.floor(arr.length * Math.random())];
             },
             toLogin() {

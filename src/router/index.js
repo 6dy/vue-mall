@@ -6,6 +6,7 @@ import ProductList from '@/views/admin/ProductList';
 import ProductSave from '@/views/admin/ProductSave';
 import CategoryAdd from '@/views/admin/CategoryAdd';
 import CategoryList from '@/views/admin/CategoryList';
+import OrderList from '@/views/admin/OrderList';
 import Success from '@/components/Success';
 import Fail from '@/components/Fail';
 import SignIn from '@/views/SignIn';
@@ -96,6 +97,11 @@ export default new Router({
             path: '/user/myOrder',
             name: 'MyOrder',
             component: MyOrder,
+        },
+        {
+            path: '/order/list',
+            name: 'OrderList',
+            component: OrderList,
         },
         {
             path: '/user/password/getBack',

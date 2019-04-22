@@ -1,6 +1,4 @@
 /**
- * @dateTime:2018/05/21 10:15:59
- * @author:ChenJun
  * @desc: Canvas生成验证码
  */
 

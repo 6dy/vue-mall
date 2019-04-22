@@ -15,8 +15,6 @@ router.get('/', (req, res) => {
 });
 
 /**
- * @dateTime:2018/05/09 14:07:52
- * @author:ChenJun
  * @desc:收货地址基本操作
  */
 router.post('/save', (req, res) => {
@@ -67,8 +65,6 @@ router.get('/getDetail', (req, res) => {
     })
 });
 /**
- * @dateTime:2018/05/11 15:04:54
- * @author:ChenJun
  * @desc:1==>删除、2==>设为默认
  */
 router.post('/operate', (req, res) => {

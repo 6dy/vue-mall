@@ -1,6 +1,4 @@
-/**
- * Created by ChenJun on 2018/5/11
- */
+
 const express = require('express');
 const router = express.Router();
 const Order = require('../models/order');

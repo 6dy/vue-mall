@@ -1,6 +1,4 @@
 /**
- * @dateTime:2018/05/24 11:03:12
- * @author:ChenJun
  * @desc:生成订单号
  */
 const moment = require('moment');

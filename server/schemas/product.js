@@ -4,7 +4,7 @@ var ProductSchema = new mongoose.Schema({
     name: String,
     image: String,
     price: Number,
-    amount: Number,
+    amount: String,
     category: {type: ObjectId, ref: 'Category'},
     // category: String,
     pv: {

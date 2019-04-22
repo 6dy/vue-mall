@@ -1,8 +1,5 @@
 /**
- * @dateTime:2018/05/21 17:56:46
- * @author:ChenJun
  * @desc: vue-verify-plugin 插件Rules配置
- * https://github.com/liuyinglong/verify
  */
 export default  {
     username:{

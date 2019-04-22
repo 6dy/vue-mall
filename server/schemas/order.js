@@ -1,6 +1,4 @@
-/**
- * Created by ChenJun on 2018/5/11
- */
+
 var mongoose = require('mongoose');
 var orderSchema = new mongoose.Schema({
     orderId: String,

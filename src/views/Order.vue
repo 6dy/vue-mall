@@ -62,9 +62,9 @@
             </div>
             <div class="payTips">
                 <p><span>{{getTotal.totalSum}}</span>件商品，总商品金额：<span>￥{{formatPrice(getTotal.totalMoney)}}</span></p>
-                <p>返现： <span :style="{'color':cost.rebate === 0 ? '#333':'#d01a39' }">-￥{{formatPrice(cost.rebate)}}</span></p>
+                <!-- <p>返现： <span :style="{'color':cost.rebate === 0 ? '#333':'#d01a39' }">-￥{{formatPrice(cost.rebate)}}</span></p> -->
                 <p>运费： <span :style="{'color':cost.freight === 0 ? '#333':'#d01a39' }">￥{{formatPrice(cost.freight)}}</span></p>
-                <p>服务费： <span :style="{'color':cost.serviceCharge === 0 ? '#333':'#d01a39' }">￥{{formatPrice(cost.serviceCharge)}}</span></p>
+                <!-- <p>服务费： <span :style="{'color':cost.serviceCharge === 0 ? '#333':'#d01a39' }">￥{{formatPrice(cost.serviceCharge)}}</span></p> -->
             </div>
             <div class="orderMsg">
                 <p>应付总额：<em>￥{{formatPrice(getTotal.totalMoney+cost.freight+cost.serviceCharge-cost.rebate)}}</em></p>

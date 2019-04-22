@@ -109,8 +109,6 @@ router.get('/info', (req, res) => {
     });
 });
 /**
- * @dateTime:2018/04/28 09:55:12
- * @author:ChenJun
  * @desc:个人中心更新数据接口，包括上传图片
  */
 const formidable = require('formidable');
